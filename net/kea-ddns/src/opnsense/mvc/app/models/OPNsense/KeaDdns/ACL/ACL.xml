@@ -4,6 +4,7 @@
         <patterns>
             <pattern>ui/keaddns/*</pattern>
             <pattern>api/keaddns/*</pattern>
+            <pattern>ui/diagnostics/log/core/kea_ddns</pattern>
         </patterns>
     </page-services-kea-ddns>
 </acl>
