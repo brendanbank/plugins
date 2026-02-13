@@ -10,7 +10,7 @@
             </enabled>
             <manual_config type="BooleanField"/>
         </general>
-        <tsig_keys type="ArrayField">
+        <tsig_keys>
             <tsig_key type="ArrayField">
                 <name type="TextField">
                     <Required>Y</Required>
