@@ -131,7 +131,6 @@
                             <display>name</display>
                         </forward_zones>
                     </Model>
-                    <BlankDesc>None</BlankDesc>
                 </forward_zone>
                 <qualifying_suffix type="TextField">
                     <Mask>/^([a-zA-Z0-9]([a-zA-Z0-9.-]*[a-zA-Z0-9])?\.)?$/u</Mask>
@@ -139,10 +138,9 @@
                 </qualifying_suffix>
                 <send_updates type="BooleanField">
                     <Default>1</Default>
+                    <Required>Y</Required>
                 </send_updates>
-                <update_on_renew type="BooleanField">
-                    <Default>0</Default>
-                </update_on_renew>
+                <update_on_renew type="BooleanField"/>
                 <conflict_resolution type="OptionField">
                     <Default>check-with-dhcid</Default>
                     <Required>Y</Required>
