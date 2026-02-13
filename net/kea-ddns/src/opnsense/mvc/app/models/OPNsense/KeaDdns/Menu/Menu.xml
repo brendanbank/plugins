@@ -1,0 +1,7 @@
+<menu>
+    <Services>
+        <Kea>
+            <Ddns VisibleName="Dynamic DNS" order="40" url="/ui/keaddns/general/index"/>
+        </Kea>
+    </Services>
+</menu>

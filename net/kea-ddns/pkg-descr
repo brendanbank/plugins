@@ -1,0 +1,9 @@
+Adds Dynamic DNS (DDNS) support for the Kea DHCP server.
+
+Manages the kea-dhcp-ddns daemon configuration including TSIG keys,
+forward and reverse DNS zones, and per-subnet DDNS policy settings.
+
+Integrates with the core Kea DHCP plugin via the plugins_run() hook
+mechanism to inject DDNS parameters into kea-dhcp4.conf.
+
+WWW: https://github.com/opnsense/plugins
