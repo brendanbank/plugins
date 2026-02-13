@@ -1,7 +1,5 @@
 <menu>
     <Services>
-        <Kea>
-            <Ddns VisibleName="Dynamic DNS" order="40" url="/ui/keaddns/general/index"/>
-        </Kea>
+        <KeaDdns VisibleName="Kea Dynamic DNS" cssClass="fa fa-exchange fa-fw" order="41" url="/ui/keaddns/general/index"/>
     </Services>
 </menu>
